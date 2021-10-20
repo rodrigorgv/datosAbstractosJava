@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/pila.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>260</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/src/java/controlador/srvPila.java</file>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/src/java/controlador/srvCola.java</file>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/web/cola.jsp</file>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/src/java/modelo/csCola.java</file>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/web/pila.jsp</file>
+            <file>file:/C:/Users/rodri/OneDrive/Documentos/NetBeansProjects/tareaDatosAbstractosRodrigo/src/java/modelo/csPila.java</file>
+        </group>
+    </open-files>
+</project-private>

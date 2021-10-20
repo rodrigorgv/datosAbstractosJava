@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea Datos Abstractos - Rodrigo Gonzalez</title>
+        <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 28, 43);
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: hsl(345, 95%, 68%);
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid rgb(79, 77, 95);
+    ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease .3s;
+    height: 10rem;
+    width: 28rem;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: hsl(345, 95%, 68%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2:hover {
+    background-color: hsl(345, 95%, 68%);
+}
+
+h2:hover>a {
+    color: rgb(35, 28, 43);
+}
+
+h3 {
+    color: hsl(345, 95%, 68%);
+    ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 70%;
+    min-width: 90vw;
+}
+
+.pila, .cola {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:650px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+    }
+}
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>Datos Abstractos - Rodrigo Gonzalez</h1>
+            <h3>escoje una opcion</h3>
+        </header>
+        <main class="main">
+            <div class="pila">
+                <h2><a href="pila.jsp"> Pila de Datos</a></h2>
+            </div>
+            <div class="cola">
+                <h2><a href="cola.jsp">Cola de datos</a></h2>
+            </div>
+        </main>
+    </body>

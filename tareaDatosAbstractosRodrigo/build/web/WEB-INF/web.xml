@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>srvPila</servlet-name>
+        <servlet-class>controlador.srvPila</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>srvCola</servlet-name>
+        <servlet-class>controlador.srvCola</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>srvEliminarPila</servlet-name>
+        <servlet-class>controlador.srvEliminarPila</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>srvDelPila</servlet-name>
+        <servlet-class>controlador.srvDelPila</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>srvPila</servlet-name>
+        <url-pattern>/srvPila</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvCola</servlet-name>
+        <url-pattern>/srvCola</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvEliminarPila</servlet-name>
+        <url-pattern>/srvEliminarPila</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvDelPila</servlet-name>
+        <url-pattern>/srvDelPila</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
